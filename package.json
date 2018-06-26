@@ -1,0 +1,52 @@
+{
+	"author": "Florian Wendelborn",
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"bugs": {
+		"url": "https://github.com/dodekeract/autominder/issues"
+	},
+	"dependencies": {
+		"rss-parser": "^3.4.2",
+		"superagent": "^3.8.3"
+	},
+	"description": "Automatically adds items to reminders.",
+	"devDependencies": {
+		"@babel/core": "^7.0.0-beta.51",
+		"@babel/node": "^7.0.0-beta.51",
+		"@babel/preset-env": "^7.0.0-beta.51",
+		"nodemon": "^1.17.5",
+		"shared-ignore": "^0.0.1"
+	},
+	"homepage": "https://github.com/dodekeract/autominder#readme",
+	"keywords": [
+		"reminders",
+		"automatic",
+		"subscription",
+		"youtube",
+		"caldav"
+	],
+	"license": "MIT",
+	"main": "source/index.js",
+	"name": "@dodekeract/autominder",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dodekeract/autominder.git"
+	},
+	"scripts": {
+		"postinstall": "shared-ignore",
+		"start": "babel-node source"
+	},
+	"sharedIgnore": {
+		"all": [
+			"node_modules/"
+		],
+		"docker": [],
+		"git": [
+			"data/config.json"
+		]
+	},
+	"version": "0.0.0"
+}

@@ -1,0 +1,10 @@
+{
+	"youtube": {
+		"channels": [
+			{
+				"id": "channel id",
+				"name": "Channel Name"
+			}
+		]
+	}
+}
